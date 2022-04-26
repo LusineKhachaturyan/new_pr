@@ -1,0 +1,9 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <p>you are logged out</p>
+    <small class="text-nuted">
+        do you want to enter?<a href="{% url 'login' %}">Log in</a>
+
+    </small>
+{% endblock  %}
